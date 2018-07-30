@@ -1,0 +1,26 @@
+{
+  "name": "ls-files",
+  "version": "1.0.0",
+  "description": "递归查找指定路径下全部文件 。Recursively find all files under the specified path",
+  "main": "index.js",
+  "scripts": {
+	"test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaohuifeng/ls-files.git"
+  },
+  "author": "gaohuifeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaohuifeng/ls-files/issues"
+  },
+  "homepage": "https://github.com/gaohuifeng/ls-files#readme",
+  "dependencies": {
+    "minimatch": "^3.0.4"
+  },
+  "keywords": ["ls", "files", "ls files", "list all files"],
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
